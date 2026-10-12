@@ -1,6 +1,6 @@
 # The Vanished Files – video style & rules
 
-Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – mostly famous disappearances (ships, planes, expeditions, lost colonies, people from history) plus other unexplained cases. Videos are made by Claude on a schedule (Tue/Thu/Sat, booked for 6pm UK through Metricool). Set up 12 Oct 2026.
+Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – mostly famous disappearances (ships, planes, expeditions, lost colonies, people from history) plus other unexplained cases. Videos are made by Claude on a schedule (Tue/Thu/Sat, ready by mid-afternoon for the user to post at 6pm UK). Set up 12 Oct 2026.
 
 ## Case rules (always)
 - Real, well-documented cases only, checked against reputable sources (official reports, major newspapers and broadcasters, museums, historians). Check every date, name and number.
@@ -38,8 +38,9 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 - Hook line + question + an emoji or two, e.g. "A ship found drifting with nobody on board… where did they go? 🚢🌫️", plus 4–6 relevant tags such as #mystery #unsolvedmysteries #history #creepy #fyp.
 
 ## Posting & analytics
-- Metricool: the brand whose TikTok is the.vanished.files (find it with getBrandSettings; it is not the spacefi6 brand). tiktokData.title = the caption (Metricool requires it); AI-generated label on (isAigc true).
-- Analytics: Metricool getAnalyticsDataByMetrics for that brand with TikTok post fields TKPO02 (published), TKPO03 (URL), TKPO05 (description), TKPO06 (duration), TKPO07 (views), TKPO08 (likes), TKPO09 (comments), TKPO10 (shares), TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share).
+- The user posts these videos themselves (chosen 12 Oct 2026; their free Metricool plan only covers the space account). Each run has the video ready by mid-afternoon with the caption and a checklist: save to Photos → switch to @the.vanished.files in TikTok → post at 6pm with the "AI-generated content" label on.
+- Never book anything to Metricool brand 7369991 (spacefi6). Only if a Metricool brand with TikTok exactly "the.vanished.files" appears later (e.g. after a plan upgrade): book it there for 6pm (tiktokData.title = the caption, isAigc true) and tell the user so they don't post it twice.
+- Analytics: Supermetrics TikTok (TIKBA) if the.vanished.files gets added there; otherwise Metricool TikTok post fields TKPO02, TKPO03, TKPO05, TKPO06, TKPO07, TKPO08, TKPO09, TKPO10, TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share) if it is ever connected there. With no stats yet, formats rotate evenly.
 - Files: vanished-files/videos/YYYY-MM-DD-<slug>.mp4 in this repo; build scripts in pipeline/vanished-<slug>/.
 
 ## Variety rule
