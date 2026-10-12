@@ -40,20 +40,22 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Posting & analytics
 - The user posts these videos themselves (chosen 12 Oct 2026; their free Metricool plan only covers the space account). Each run has the video ready by mid-afternoon with the caption and a checklist: save to Photos → switch to @the.vanished.files in TikTok → post at 6pm with the "AI-generated content" label on.
 - Never book anything to Metricool brand 7369991 (spacefi6). Only if a Metricool brand with TikTok exactly "the.vanished.files" appears later (e.g. after a plan upgrade): book it there for 6pm (tiktokData.title = the caption, isAigc true) and tell the user so they don't post it twice.
-- Analytics: Supermetrics TikTok (TIKBA) if the.vanished.files gets added there; otherwise Metricool TikTok post fields TKPO02, TKPO03, TKPO05, TKPO06, TKPO07, TKPO08, TKPO09, TKPO10, TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share) if it is ever connected there. With no stats yet, formats rotate evenly.
+- Analytics: Supermetrics TikTok (TIKBA), account id "the.vanished.files" (connected 12 Oct 2026). Fallback: Metricool TikTok post fields TKPO02, TKPO03, TKPO05, TKPO06, TKPO07, TKPO08, TKPO09, TKPO10, TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share) if it is ever connected there. With no stats yet, formats rotate evenly.
 - Files: vanished-files/videos/YYYY-MM-DD-<slug>.mp4 in this repo; build scripts in pipeline/vanished-<slug>/.
 
 ## Variety rule
 - Every video changes format and case type (sea, air, land/expedition, colony/civilisation, person, place) from the one before. About 2 in 3 use the best-scoring formats on the scoreboard; about 1 in 3 tests a less-tested format. Judge only videos at least 48 hours old.
 
 ## Format scoreboard
-No videos posted yet.
+| Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Notes |
+|---|---|---|---|---|---|
+| Case file (long, 74s) | 1 | 222 | 13% | 3.5% | Mary Celeste; stats pulled 12 Oct 2026 02:15, under 1 hour after posting |
+- Takeaway so far: 74s is too long – keep to 35–45s as planned.
 
 ## Videos made
-None yet.
+1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
 
 ## Case ideas (check each against the case rules first)
-- Mary Celeste (1872) – ship found drifting, crew gone
 - Roanoke Colony (found abandoned 1590) – "CROATOAN"
 - Flight 19 (1945) – five Navy bombers lost off Florida, and a rescue plane with them
 - Amelia Earhart (1937)
