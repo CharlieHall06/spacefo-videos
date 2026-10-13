@@ -47,17 +47,23 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 - Every video changes format and case type (sea, air, land/expedition, colony/civilisation, person, place) from the one before. About 2 in 3 use the best-scoring formats on the scoreboard; about 1 in 3 tests a less-tested format. Judge only videos at least 48 hours old.
 
 ## Format scoreboard
-| Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Notes |
-|---|---|---|---|---|---|
-| Case file (long, 74s) | 1 | 222 | 13% | 3.5% | Mary Celeste; stats pulled 12 Oct 2026 02:15, under 1 hour after posting |
+| Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
+|---|---|---|---|---|---|---|
+| Case file (long, 74s) | 1 | 631 | 22% (16.4s) | 6.4% | 2.2 | Mary Celeste; Supermetrics 13 Oct 2026 11:50 UTC, about 35h after posting (not yet 48h, so not scored) |
+| Last known moments | 1 | – | – | – | – | Flight 19, posted 13 Oct 2026; judge from 15 Oct |
+| Countdown, Theories ranked, One detail, Myth vs truth | 0 | – | – | – | – | untested |
 - Takeaway so far: 74s is too long – keep to 35–45s as planned.
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
 
+2. Flight 19 (5 Dec 1945, air) – Last known moments, 45.4s. Made 13 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-13-flight-19.mp4; scripts: pipeline/vanished-flight-19/. Voice: bm_george, run at ~1.0 speed (1.03 × ±3%) to fit 45s. Sources: NHHC H-Gram 057-4, National Archives "Prologue" blog (2017), History.com.
+   - Voiceover: "December fifth, nineteen forty-five. Five Navy bombers leave Florida on a training flight, fourteen men on board. Three forty. The leader radios: both my compasses are out. He's sure they're over the Florida Keys. They're not. Sunset. The sea turns rough, and fuel is running low. Seven oh four. The last words heard: we'll have to ditch. A flying boat with thirteen men goes to find them. Twenty minutes later, a tanker sees a burst of flames. Twenty-seven men. Six aircraft. No wreckage ever found. The cause is still unknown. What do you think happened?"
+   - Caption: "5 Navy planes. 14 men. One radio message… then nothing, ever again ✈️🌊 What do you think happened to Flight 19? 👇 #flight19 #unsolvedmysteries #mystery #history #creepy #fyp"
+
 ## Case ideas (check each against the case rules first)
 - Roanoke Colony (found abandoned 1590) – "CROATOAN"
-- Flight 19 (1945) – five Navy bombers lost off Florida, and a rescue plane with them
+- ~~Flight 19 (1945)~~ – done 13 Oct 2026
 - Amelia Earhart (1937)
 - The Franklin Expedition (1845) – two ships lost in the Arctic; wrecks found 2014 and 2016
 - Flannan Isles lighthouse keepers (1900)
