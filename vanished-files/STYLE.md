@@ -49,10 +49,11 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Format scoreboard
 | Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
 |---|---|---|---|---|---|---|
-| Case file (long, 74s) | 1 | 631 | 22% (16.4s) | 6.4% | 2.2 | Mary Celeste; Supermetrics 13 Oct 2026 11:50 UTC, about 35h after posting (not yet 48h, so not scored) |
-| Last known moments | 1 | – | – | – | – | Flight 19, posted 13 Oct 2026; judge from 15 Oct |
-| Countdown, Theories ranked, One detail, Myth vs truth | 0 | – | – | – | – | untested |
-- Takeaway so far: 74s is too long – keep to 35–45s as planned.
+| Case file (long, 74s) | 1 | 638 | 23% (16.8s) | 6.6% | 2.2 | Mary Celeste; Supermetrics 15 Oct 2026 11:52 UTC (~3.5 days old) – only scored video so far |
+| Last known moments | 1 | (601) | (15%, 6.8s) | (4.2%) | (0.7) | Flight 19; ~41h old on 15 Oct 11:52 UTC, so not scored yet – early numbers in brackets; re-check from 16 Oct |
+| One detail | 1 | – | – | – | – | Roanoke, made 15 Oct 2026; judge from 17 Oct |
+| Countdown, Theories ranked, Myth vs truth | 0 | – | – | – | – | untested |
+- Takeaway so far: 74s is too long – keep to 35–45s as planned. Early sign (unscored): Flight 19 at 45s got similar views but even lower watch % – the opening seconds need to hook harder; try shorter formats.
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
@@ -61,8 +62,12 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
    - Voiceover: "December fifth, nineteen forty-five. Five Navy bombers leave Florida on a training flight, fourteen men on board. Three forty. The leader radios: both my compasses are out. He's sure they're over the Florida Keys. They're not. Sunset. The sea turns rough, and fuel is running low. Seven oh four. The last words heard: we'll have to ditch. A flying boat with thirteen men goes to find them. Twenty minutes later, a tanker sees a burst of flames. Twenty-seven men. Six aircraft. No wreckage ever found. The cause is still unknown. What do you think happened?"
    - Caption: "5 Navy planes. 14 men. One radio message… then nothing, ever again ✈️🌊 What do you think happened to Flight 19? 👇 #flight19 #unsolvedmysteries #mystery #history #creepy #fyp"
 
+3. Roanoke Colony (Aug 1590, colony) – One detail, 35.0s. Made 15 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-15-roanoke.mp4; scripts: pipeline/vanished-roanoke/ (build.sh runs voice → audio → render → loudnorm). Voice: bm_george at 1.05 × ±3% (0.88 on the reveal word); TTS spells Roanoke "Rowanoke" so it says "ROH-uh-noke". Why: only scored video (74s) held ~23% of its length, so tested the shortest, untested format; colony case type after sea and air. Sources: NPS Fort Raleigh "1590 Rescue Voyage" and "John White" pages, NC DNCR "Origins of the Lost Colony Mystery", Britannica "Lost Colony".
+   - Voiceover: "In fifteen ninety, John White sails back to his colony on Roanoke Island. More than a hundred settlers were waiting for him. Every one of them is gone. No sign of a fight. Just one word, carved into a post of the fort. Croatoan. They'd agreed a signal: if they were ever forced out, carve a cross. There's no cross. Croatoan was a friendly island to the south. A storm stops White ever getting there. It's still unsolved. Where do you think they went?"
+   - Caption: "Over 100 settlers vanished… and left just one word carved into a post 🪓🌫️ Where do you think they went? 👇 #roanoke #lostcolony #unsolvedmysteries #mystery #history #fyp"
+
 ## Case ideas (check each against the case rules first)
-- Roanoke Colony (found abandoned 1590) – "CROATOAN"
+- ~~Roanoke Colony (found abandoned 1590) – "CROATOAN"~~ – done 15 Oct 2026
 - ~~Flight 19 (1945)~~ – done 13 Oct 2026
 - Amelia Earhart (1937)
 - The Franklin Expedition (1845) – two ships lost in the Arctic; wrecks found 2014 and 2016
