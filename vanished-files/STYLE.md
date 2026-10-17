@@ -49,11 +49,11 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Format scoreboard
 | Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
 |---|---|---|---|---|---|---|
-| Case file (long, 74s) | 1 | 638 | 23% (16.8s) | 6.6% | 2.2 | Mary Celeste; Supermetrics 15 Oct 2026 11:52 UTC (~3.5 days old) – only scored video so far |
-| Last known moments | 1 | (601) | (15%, 6.8s) | (4.2%) | (0.7) | Flight 19; ~41h old on 15 Oct 11:52 UTC, so not scored yet – early numbers in brackets; re-check from 16 Oct |
-| One detail | 1 | – | – | – | – | Roanoke, made 15 Oct 2026; judge from 17 Oct |
+| Case file | 1 scored (74s) + 1 new | 639 | 23% (16.8s) | 6.5% | 2.2 | Mary Celeste (74s) – Supermetrics 17 Oct 2026 11:52 UTC. Flannan Isles (44.5s) made 17 Oct; judge from 19 Oct |
+| Last known moments | 1 | 603 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s), scored 17 Oct 2026 (~88h old) |
+| One detail | 1 | (681) | (11%, 4.0s) | (2.2%) | (0.4) | Roanoke (35s); ~42h old on 17 Oct 11:52 UTC, so not scored yet – early numbers in brackets; re-check from 18 Oct |
 | Countdown, Theories ranked, Myth vs truth | 0 | – | – | – | – | untested |
-- Takeaway so far: 74s is too long – keep to 35–45s as planned. Early sign (unscored): Flight 19 at 45s got similar views but even lower watch % – the opening seconds need to hook harder; try shorter formats.
+- Takeaway so far: views are flat at ~600–700 whatever the format, so the For You page is testing each video on a similar small audience; watch % is what decides whether it gets pushed further. Case file holds people best so far. Shorter videos have not raised watch %: Roanoke (35s) is early, but it looks like the weakest. Hooks need to land in the first second; from 17 Oct the first spoken line is the hook itself, before the date.
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
@@ -66,12 +66,16 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
    - Voiceover: "In fifteen ninety, John White sails back to his colony on Roanoke Island. More than a hundred settlers were waiting for him. Every one of them is gone. No sign of a fight. Just one word, carved into a post of the fort. Croatoan. They'd agreed a signal: if they were ever forced out, carve a cross. There's no cross. Croatoan was a friendly island to the south. A storm stops White ever getting there. It's still unsolved. Where do you think they went?"
    - Caption: "Over 100 settlers vanished… and left just one word carved into a post 🪓🌫️ Where do you think they went? 👇 #roanoke #lostcolony #unsolvedmysteries #mystery #history #fyp"
 
+4. Flannan Isles lighthouse keepers (Dec 1900, place / lighthouse) – Case file, 44.5s. Made 17 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-17-flannan-isles.mp4; scripts: pipeline/vanished-flannan-isles/ (build.sh: voice → audio → render → loudnorm). Voice: bm_george at 1.08 × ±3% (theory lines 3% slower). Why: Case file is the best-scoring format (23% watch, 2.2 interactions per 100 views vs 15%/0.7 for Last known moments), cut to 45s with the hook spoken first; place case type after sea, air and colony. Left out the popular myths (uneaten meal, stopped clock, fake logbook entries) and the murder rumours. Sources: Wikipedia "Flannan Isles Lighthouse" (quotes Muirhead's 1901 report), Sky HISTORY UK, History Hit.
+   - Voiceover: "Three lighthouse keepers vanished, and one of them left his coat behind. December, nineteen hundred. A ship passes the Flannan Isles lighthouse, off Scotland. Its light is out. Eleven days later, the relief boat arrives. Nobody is there. The gate and the door are shut. But one set of oilskins is still there. One man went out without his coat. At the west landing, a box of ropes, over a hundred feet above the sea, is smashed open. Theory: a giant wave swept them away. The official verdict. Theory: one man ran out to warn the others. They were never found. No one knows for sure. What do you think happened?"
+   - Caption: "3 lighthouse keepers vanished… and one of them left his coat behind 🌊🕯️ What do you think happened? 👇 #flannanisles #lighthouse #unsolvedmysteries #mystery #history #fyp"
+
 ## Case ideas (check each against the case rules first)
 - ~~Roanoke Colony (found abandoned 1590) – "CROATOAN"~~ – done 15 Oct 2026
 - ~~Flight 19 (1945)~~ – done 13 Oct 2026
 - Amelia Earhart (1937)
 - The Franklin Expedition (1845) – two ships lost in the Arctic; wrecks found 2014 and 2016
-- Flannan Isles lighthouse keepers (1900)
+- ~~Flannan Isles lighthouse keepers (1900)~~ – done 17 Oct 2026
 - SS Waratah (1909) – liner vanished off South Africa
 - USS Cyclops (1918) – no wreck ever found
 - Star Dust airliner (1947) – the "STENDEC" message
