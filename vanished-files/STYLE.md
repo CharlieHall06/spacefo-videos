@@ -49,11 +49,12 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Format scoreboard
 | Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
 |---|---|---|---|---|---|---|
-| Case file | 1 scored (74s) + 1 new | 639 | 23% (16.8s) | 6.5% | 2.2 | Mary Celeste (74s) – Supermetrics 17 Oct 2026 11:52 UTC. Flannan Isles (44.5s) made 17 Oct; judge from 19 Oct |
-| Last known moments | 1 | 603 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s), scored 17 Oct 2026 (~88h old) |
-| One detail | 1 | (681) | (11%, 4.0s) | (2.2%) | (0.4) | Roanoke (35s); ~42h old on 17 Oct 11:52 UTC, so not scored yet – early numbers in brackets; re-check from 18 Oct |
-| Countdown, Theories ranked, Myth vs truth | 0 | – | – | – | – | untested |
-- Takeaway so far: views are flat at ~600–700 whatever the format, so the For You page is testing each video on a similar small audience; watch % is what decides whether it gets pushed further. Case file holds people best so far. Shorter videos have not raised watch %: Roanoke (35s) is early, but it looks like the weakest. Hooks need to land in the first second; from 17 Oct the first spoken line is the hook itself, before the date.
+| Case file | 2 | 680 | 17% (Mary Celeste 23%, Flannan 12%) | 4.2% | 1.4 | Mary Celeste 74s: 640 views, 16.8s, 6.5%, 2.2. Flannan Isles 44.5s: 720 views, 5.3s, 1.8%, 0.7 (Supermetrics 20 Oct 2026 11:52 UTC) |
+| Last known moments | 1 | 605 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s) |
+| One detail | 1 | 681 | 11% (4.0s) | 2.2% | 0.4 | Roanoke (35s), now scored (~90h old) |
+| Theories ranked | 1 new | – | – | – | – | Amelia Earhart (45.5s) made 20 Oct; judge from 22 Oct |
+| Countdown, Myth vs truth | 0 | – | – | – | – | untested |
+- Takeaway so far: views are flat at ~600–720 whatever the format, so the For You page is testing each video on a similar small audience; watch % decides whether it gets pushed further. Watch % has fallen with each video (23% → 15% → 11% → 12%). Flannan Isles got the most views but kept people only 5.3s, so the first 5 seconds are where viewers leave. On 20 Oct tried Theories ranked (a "wait for #1" structure plus a #4–#1 tracker on screen) with a very famous name in the hook to see if that holds people longer.
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
@@ -70,10 +71,14 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
    - Voiceover: "Three lighthouse keepers vanished, and one of them left his coat behind. December, nineteen hundred. A ship passes the Flannan Isles lighthouse, off Scotland. Its light is out. Eleven days later, the relief boat arrives. Nobody is there. The gate and the door are shut. But one set of oilskins is still there. One man went out without his coat. At the west landing, a box of ropes, over a hundred feet above the sea, is smashed open. Theory: a giant wave swept them away. The official verdict. Theory: one man ran out to warn the others. They were never found. No one knows for sure. What do you think happened?"
    - Caption: "3 lighthouse keepers vanished… and one of them left his coat behind 🌊🕯️ What do you think happened? 👇 #flannanisles #lighthouse #unsolvedmysteries #mystery #history #fyp"
 
+5. Amelia Earhart (2 Jul 1937, air / person) – Theories ranked, 45.5s. Made 20 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-20-amelia-earhart.mp4; scripts: pipeline/vanished-earhart/ (build.sh: voice → audio → render → loudnorm). Voice: bm_george at 1.12 × ±3% ("Number…" lines 3% slower); TTS says Nikumaroro as "Neekoomaroro". Why: no format clearly working and watch % falling, so the ~1-in-3 test of an untested format; most famous case so far and topical (the Purdue-backed Nikumaroro search reported on 20 Oct 2026 that it found no plane); air/person case after place. Ranking: #4 lived on under a new name (debunked – no name given), #3 captured by Japan (the 2017 "proof" photo was printed in 1935), #2 castaway on Nikumaroro (bones found in 1940, later lost), #1 out of fuel and sank (the official conclusion). Visuals have no faces; the photo is a stylised empty dock. Sources: National Archives/DocsTeach Itasca radio log, National Geographic (2017 photo discredited), NPR/MPR (2018 Jantz bones study), Wikipedia "Irene Craigmile Bolam", ABC News/NBC (Oct 2026 search).
+   - Voiceover: "Amelia Earhart vanished in nineteen thirty-seven. Four theories, ranked. She and navigator Fred Noonan were hunting for a tiny Pacific island. Her radio call: we must be on you, but cannot see you. Gas is running low. Then, silence. Number four: she lived on, under a new name. Debunked. Number three: captured by Japan. But the photo said to prove it was printed two years earlier. Number two: a castaway on Nikumaroro. Bones found there were lost. A search this month found no plane. Number one: she ran out of fuel and sank. The official conclusion. Her plane has never been found. Which theory do you believe?"
+   - Caption: "Amelia Earhart vanished in 1937… here are 4 theories, ranked ✈️🌊 Which one do you believe? 👇 #ameliaearhart #unsolvedmysteries #mystery #history #creepy #fyp"
+
 ## Case ideas (check each against the case rules first)
 - ~~Roanoke Colony (found abandoned 1590) – "CROATOAN"~~ – done 15 Oct 2026
 - ~~Flight 19 (1945)~~ – done 13 Oct 2026
-- Amelia Earhart (1937)
+- ~~Amelia Earhart (1937)~~ – done 20 Oct 2026 (Theories ranked)
 - The Franklin Expedition (1845) – two ships lost in the Arctic; wrecks found 2014 and 2016
 - ~~Flannan Isles lighthouse keepers (1900)~~ – done 17 Oct 2026
 - SS Waratah (1909) – liner vanished off South Africa
