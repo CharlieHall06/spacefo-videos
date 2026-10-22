@@ -50,11 +50,11 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 | Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
 |---|---|---|---|---|---|---|
 | Case file | 2 | 680 | 17% (Mary Celeste 23%, Flannan 12%) | 4.2% | 1.4 | Mary Celeste 74s: 640 views, 16.8s, 6.5%, 2.2. Flannan Isles 44.5s: 720 views, 5.3s, 1.8%, 0.7 (Supermetrics 20 Oct 2026 11:52 UTC) |
-| Last known moments | 1 | 605 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s) |
+| Last known moments | 1 (+1 new) | 605 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s). Carroll A. Deering (44s) made 22 Oct; judge from 24 Oct |
 | One detail | 1 | 681 | 11% (4.0s) | 2.2% | 0.4 | Roanoke (35s), now scored (~90h old) |
-| Theories ranked | 1 new | – | – | – | – | Amelia Earhart (45.5s) made 20 Oct; judge from 22 Oct |
+| Theories ranked | 1 new | – | – | – | – | Amelia Earhart (45.5s), posted 21 Oct 11:00 UTC: 217 views, 7.3s (16%), 4.0% full-watch, 0.5 per 100 views at 22 Oct ~12:00 UTC (under 48h, not scored yet) |
 | Countdown, Myth vs truth | 0 | – | – | – | – | untested |
-- Takeaway so far: views are flat at ~600–720 whatever the format, so the For You page is testing each video on a similar small audience; watch % decides whether it gets pushed further. Watch % has fallen with each video (23% → 15% → 11% → 12%). Flannan Isles got the most views but kept people only 5.3s, so the first 5 seconds are where viewers leave. On 20 Oct tried Theories ranked (a "wait for #1" structure plus a #4–#1 tracker on screen) with a very famous name in the hook to see if that holds people longer.
+- Takeaway so far: views are flat at ~600–720 whatever the format, so the For You page is testing each video on a similar small audience; watch % decides whether it gets pushed further. Watch % has fallen with each video (23% → 15% → 11% → 12%). Flannan Isles got the most views but kept people only 5.3s, so the first 5 seconds are where viewers leave. On 20 Oct tried Theories ranked (a "wait for #1" structure plus a #4–#1 tracker on screen) with a very famous name in the hook to see if that holds people longer. Early sign (under 48h): Earhart's 7.3s average watch is the best of the 45s videos so far. On 22 Oct went back to Last known moments (best average watch in seconds among the 45s videos) with a sea case, and a stronger visual hook (ship on the shoals + CREW VANISHED stamp on frame 0).
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
@@ -75,6 +75,10 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
    - Voiceover: "Amelia Earhart vanished in nineteen thirty-seven. Four theories, ranked. She and navigator Fred Noonan were hunting for a tiny Pacific island. Her radio call: we must be on you, but cannot see you. Gas is running low. Then, silence. Number four: she lived on, under a new name. Debunked. Number three: captured by Japan. But the photo said to prove it was printed two years earlier. Number two: a castaway on Nikumaroro. Bones found there were lost. A search this month found no plane. Number one: she ran out of fuel and sank. The official conclusion. Her plane has never been found. Which theory do you believe?"
    - Caption: "Amelia Earhart vanished in 1937… here are 4 theories, ranked ✈️🌊 Which one do you believe? 👇 #ameliaearhart #unsolvedmysteries #mystery #history #creepy #fyp"
 
+6. Carroll A. Deering (Jan 1921, sea / ghost ship) – Last known moments, 44.0s. Made 22 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-22-carroll-deering.mp4; scripts: pipeline/vanished-carroll-deering/ (build.sh: voice → audio → render → loudnorm + re-encode to stay under 15 MB). Voice: bm_george at 1.12 × ±3% (theory lines and "No crew." 5% slower). Why: previous video was Theories ranked (air/person), so a best-scoring format (Last known moments) and the sea case type. Timeline from NPS: lightship 29 Jan, SS Lake Elon sighting 30 Jan 5:45pm, found aground 31 Jan 6:30am, boarded 4 Feb. Theories (mutiny, pirates) labelled as unproven; the forged message in a bottle was left out. Sources: NPS Cape Hatteras "The Ghost Ship of the Outer Banks", Library of Congress "Headlines & Heroes" (2023), Wikipedia "Carroll A. Deering".
+   - Voiceover: "This ship ran aground with every sail set, and nobody on board. January twenty-ninth, nineteen twenty-one. The schooner Carroll A. Deering passes a lightship. A crewman shouts across: we've lost both anchors. He doesn't look like an officer. Next evening, another ship sees her steering a strange course. January thirty-first. She's found stuck on Diamond Shoals. Sails set. Lifeboats gone. When they finally get on board: food laid out for a meal. The log, gone. No crew. Theory: mutiny. Theory: pirates. Nothing was ever proven. Still unsolved. What do you think happened?"
+   - Caption: "This ship ran aground with every sail set… and nobody on board 🚢🌫️ What do you think happened to the crew? 👇 #carrolladeering #ghostship #unsolvedmysteries #mystery #history #fyp"
+
 ## Case ideas (check each against the case rules first)
 - ~~Roanoke Colony (found abandoned 1590) – "CROATOAN"~~ – done 15 Oct 2026
 - ~~Flight 19 (1945)~~ – done 13 Oct 2026
@@ -84,7 +88,7 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 - SS Waratah (1909) – liner vanished off South Africa
 - USS Cyclops (1918) – no wreck ever found
 - Star Dust airliner (1947) – the "STENDEC" message
-- Carroll A. Deering (1921) – ghost ship off Cape Hatteras
+- ~~Carroll A. Deering (1921) – ghost ship off Cape Hatteras~~ – done 22 Oct 2026 (Last known moments)
 - Percy Fawcett (1925) – the search for the "Lost City of Z"
 - The Norse settlers of Greenland (15th century)
 - The Ninth Legion (2nd century)
