@@ -40,7 +40,7 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Posting & analytics
 - The user posts these videos themselves (chosen 12 Oct 2026; their free Metricool plan only covers the space account). Each run has the video ready by mid-afternoon with the caption and a checklist: save to Photos → switch to @the.vanished.files in TikTok → post at 6pm with the "AI-generated content" label on.
 - Never book anything to Metricool brand 7369991 (spacefi6). Only if a Metricool brand with TikTok exactly "the.vanished.files" appears later (e.g. after a plan upgrade): book it there for 6pm (tiktokData.title = the caption, isAigc true) and tell the user so they don't post it twice.
-- Analytics: Supermetrics TikTok (TIKBA), account id "the.vanished.files" (connected 12 Oct 2026). Fallback: Metricool TikTok post fields TKPO02, TKPO03, TKPO05, TKPO06, TKPO07, TKPO08, TKPO09, TKPO10, TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share) if it is ever connected there. With no stats yet, formats rotate evenly.
+- Analytics: Supermetrics TikTok (TIKBA), account id "the.vanished.files" (connected 12 Oct 2026; free trial expired 22 Oct 2026, so queries fail until the user subscribes or reconnects). Fallback: Metricool TikTok post fields TKPO02, TKPO03, TKPO05, TKPO06, TKPO07, TKPO08, TKPO09, TKPO10, TKPO13 (full-watch rate), TKPO15 (average watch time), TKPO16 (For You share) if it is ever connected there. With no stats yet, formats rotate evenly.
 - Files: vanished-files/videos/YYYY-MM-DD-<slug>.mp4 in this repo; build scripts in pipeline/vanished-<slug>/.
 
 ## Variety rule
@@ -49,12 +49,12 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 ## Format scoreboard
 | Format | Videos | Avg views | Avg watch (% of length) | Avg full-watch | Likes+comments+shares per 100 views | Notes |
 |---|---|---|---|---|---|---|
-| Case file | 2 | 680 | 17% (Mary Celeste 23%, Flannan 12%) | 4.2% | 1.4 | Mary Celeste 74s: 640 views, 16.8s, 6.5%, 2.2. Flannan Isles 44.5s: 720 views, 5.3s, 1.8%, 0.7 (Supermetrics 20 Oct 2026 11:52 UTC) |
-| Last known moments | 1 (+1 new) | 605 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s). Carroll A. Deering (44s) made 22 Oct; judge from 24 Oct |
+| Case file | 2 (+1 new) | 680 | 17% (Mary Celeste 23%, Flannan 12%) | 4.2% | 1.4 | Mary Celeste 74s: 640 views, 16.8s, 6.5%, 2.2. Flannan Isles 44.5s: 720 views, 5.3s, 1.8%, 0.7 (Supermetrics 20 Oct 2026 11:52 UTC). Percy Fawcett (44.6s) made 24 Oct; judge from 26 Oct |
+| Last known moments | 1 (+1 unscored) | 605 | 15% (6.9s) | 4.2% | 0.7 | Flight 19 (45s). Carroll A. Deering (44s) made 22 Oct; could not be scored on 24 Oct (no stats) |
 | One detail | 1 | 681 | 11% (4.0s) | 2.2% | 0.4 | Roanoke (35s), now scored (~90h old) |
-| Theories ranked | 1 new | – | – | – | – | Amelia Earhart (45.5s), posted 21 Oct 11:00 UTC: 217 views, 7.3s (16%), 4.0% full-watch, 0.5 per 100 views at 22 Oct ~12:00 UTC (under 48h, not scored yet) |
+| Theories ranked | 1 (unscored) | – | – | – | – | Amelia Earhart (45.5s), posted 21 Oct 11:00 UTC: 217 views, 7.3s (16%), 4.0% full-watch, 0.5 per 100 views at 22 Oct ~12:00 UTC (under 48h, not scored yet) |
 | Countdown, Myth vs truth | 0 | – | – | – | – | untested |
-- Takeaway so far: views are flat at ~600–720 whatever the format, so the For You page is testing each video on a similar small audience; watch % decides whether it gets pushed further. Watch % has fallen with each video (23% → 15% → 11% → 12%). Flannan Isles got the most views but kept people only 5.3s, so the first 5 seconds are where viewers leave. On 20 Oct tried Theories ranked (a "wait for #1" structure plus a #4–#1 tracker on screen) with a very famous name in the hook to see if that holds people longer. Early sign (under 48h): Earhart's 7.3s average watch is the best of the 45s videos so far. On 22 Oct went back to Last known moments (best average watch in seconds among the 45s videos) with a sea case, and a stronger visual hook (ship on the shoals + CREW VANISHED stamp on frame 0).
+- Takeaway so far: views are flat at ~600–720 whatever the format, so the For You page is testing each video on a similar small audience; watch % decides whether it gets pushed further. Watch % has fallen with each video (23% → 15% → 11% → 12%). Flannan Isles got the most views but kept people only 5.3s, so the first 5 seconds are where viewers leave. On 20 Oct tried Theories ranked (a "wait for #1" structure plus a #4–#1 tracker on screen) with a very famous name in the hook to see if that holds people longer. Early sign (under 48h): Earhart's 7.3s average watch is the best of the 45s videos so far. On 22 Oct went back to Last known moments (best average watch in seconds among the 45s videos) with a sea case, and a stronger visual hook (ship on the shoals + CREW VANISHED stamp on frame 0). On 24 Oct no new stats: the Supermetrics trial expired on 22 Oct (TRIAL_EXPIRED) and Metricool has only spacefi6, so the choice used this scoreboard: Case file (best watch % and engagement), land/expedition case, with three walking silhouettes + NEVER FOUND stamp on frame 0. Earhart and Deering stay unscored until stats come back.
 
 ## Videos made
 1. Mary Celeste (1872, sea / ghost ship) – Case file style, 74s. Posted by the user on 12 Oct 2026 at 01:18, made in another chat before this schedule existed. Caption: "In 1872 a ship was found drifting with 6 months of food on board… and not one person 🚢 What do you think happened to them? 👇 #maryceleste #ghostship #unsolvedmysteries #historytok #mystery"
@@ -79,6 +79,10 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
    - Voiceover: "This ship ran aground with every sail set, and nobody on board. January twenty-ninth, nineteen twenty-one. The schooner Carroll A. Deering passes a lightship. A crewman shouts across: we've lost both anchors. He doesn't look like an officer. Next evening, another ship sees her steering a strange course. January thirty-first. She's found stuck on Diamond Shoals. Sails set. Lifeboats gone. When they finally get on board: food laid out for a meal. The log, gone. No crew. Theory: mutiny. Theory: pirates. Nothing was ever proven. Still unsolved. What do you think happened?"
    - Caption: "This ship ran aground with every sail set… and nobody on board 🚢🌫️ What do you think happened to the crew? 👇 #carrolladeering #ghostship #unsolvedmysteries #mystery #history #fyp"
 
+7. Percy Fawcett (May 1925, land / expedition) – Case file, 44.6s. Made 24 Oct 2026 for the user to post at 6pm. File: vanished-files/videos/2026-10-24-percy-fawcett.mp4; scripts: pipeline/vanished-fawcett/ (build.sh: voice → audio → render → loudnorm). Voice: bm_george at 1.12 × ±3% (theory lines, "His report…" and "A typo?" 5% slower); TTS says Rimell as "Rimmel". Why: previous video was Last known moments (sea); Case file is the best-scoring format; land/expedition case type not used yet. Strangest clue: his last letter to his wife gives the camp as 11°43′S, his report to the North American Newspaper Alliance as 13°43′S (same longitude). 1951 remains: the Royal Anthropological Institute concluded they were not his. Left out the disputed "100 searchers died" claim and named the tribal oral accounts only as "killed in the jungle", labelled THEORY. Sources: Wikipedia "Percy Fawcett", History.com "Explorer Percy Fawcett disappears in the Amazon", RAI Fawcett Papers (A69), National Geographic.
+   - Voiceover: "He went into the Amazon to find a lost city, and never came back. May twenty-ninth, nineteen twenty-five. Percy Fawcett sends his guides home from Dead Horse Camp. With him: his son Jack, and Jack's friend Raleigh Rimell. His last letter to his wife: you need have no fear of any failure. But that letter puts the camp at eleven degrees south. His report to the papers says thirteen. A typo? Or a false trail? In nineteen fifty-one, bones said to be his turn up. Tests say they're not him. Theory: hunger or fever. Theory: killed in the jungle. None of them was ever found. Still unsolved. What do you think happened?"
+   - Caption: "He went into the Amazon to find a lost city… and never came back 🌿🧭 What do you think happened to him? 👇 #percyfawcett #lostcityofz #unsolvedmysteries #mystery #history #fyp"
+
 ## Case ideas (check each against the case rules first)
 - ~~Roanoke Colony (found abandoned 1590) – "CROATOAN"~~ – done 15 Oct 2026
 - ~~Flight 19 (1945)~~ – done 13 Oct 2026
@@ -89,7 +93,7 @@ Account: TikTok @the.vanished.files. Short, eerie, true mystery stories – most
 - USS Cyclops (1918) – no wreck ever found
 - Star Dust airliner (1947) – the "STENDEC" message
 - ~~Carroll A. Deering (1921) – ghost ship off Cape Hatteras~~ – done 22 Oct 2026 (Last known moments)
-- Percy Fawcett (1925) – the search for the "Lost City of Z"
+- ~~Percy Fawcett (1925) – the search for the "Lost City of Z"~~ – done 24 Oct 2026 (Case file)
 - The Norse settlers of Greenland (15th century)
 - The Ninth Legion (2nd century)
 - D.B. Cooper (1971) – the hijacker who jumped and vanished (never name suspects)
